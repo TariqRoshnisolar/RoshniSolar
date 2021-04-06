@@ -1,0 +1,78 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Prices_model extends CI_Model {
+	public function __construct(){
+		parent::__construct();
+	}
+
+	public function getList($params = array(),$limit = array()){
+		$this->db->select('registration_amt.id,amount,apply_for_category,GROUP_CONCAT(cat.category) as category_name,registration_amt.created_at');
+		$this->db->from('registration_amt');
+		$this->db->join('categories as cat','FIND_IN_SET(cat.id,registration_amt.apply_for_category) !=0','left');		
+		$this->db->where('registration_amt.is_deleted',0);
+		if(isset($params['keyword']) && $params['keyword']){
+			$this->db->where('(registration_amt.amount LIKE "%'.$params['keyword'].'%")');	
+		}
+
+		if(isset($params['startEnd']) && $params['startEnd']){
+			  $explode = explode('-', $params['startEnd']);
+			  $starDate = $explode[0];
+			  $endDate = $explode[1];
+			   $st=date('Y-m-d',strtotime($starDate)).' 00:00:00';
+			   $et=date('Y-m-d',strtotime($endDate)).' 23:59:00';
+              $this->db->where('registration_amt.created_at >=',$st);
+			  $this->db->where('registration_amt.created_at <=',$et);
+		}
+
+		if(isset($params['sortBy']) && $params['sortBy'] && isset($params['sortByField']) && $params['sortByField']){
+			$this->db->order_by($params['sortByField'],$params['sortBy']);
+		} else {
+			$this->db->order_by('registration_amt.id','DESC');
+		}
+
+		if(array_key_exists("start",$limit) && array_key_exists("limit",$limit)){
+			$this->db->limit($limit['limit'],$limit['start']);
+		}elseif(!array_key_exists("start",$limit) && array_key_exists("limit",$limit)){
+			$this->db->limit($limit['limit']);
+		}
+
+		$this->db->group_by('registration_amt.id');	
+		$query = $this->db->get();
+		// echo $this->db->last_query();die();
+		return ($query->num_rows() > 0)?$query->result():array();
+
+	}
+
+	public function getData($id=''){
+		return $this->db->get_where('registration_amt',array('id'=>$id))->row();
+	}
+
+	public function saveData($data=array()){
+		if($data['id']){
+			$id = $data['id'];
+			$data['updated_at'] = date('Y-m-d H:i:s');
+			unset($data['id']);
+			$this->db->where('id',$id)->update('registration_amt',$data);
+		} else {
+			$data['created_at'] = date('Y-m-d H:i:s');
+			$this->db->insert('registration_amt',$data);
+		}
+
+		return array('status'=>1,'msg'=>'Data successfully saved');
+	}
+	
+
+	public function deleteData($data=array()){
+		if($data['ids']){
+			$ids = explode(',', $data['ids']);
+			$getData = $this->db->where_in('id',$ids)->get('registration_amt')->result();
+			$this->db->where_in('id',$ids)->update('registration_amt',array('is_deleted'=>1));
+			return array('status'=>1,'msg'=>'Deleted successfully.');
+		} else {
+			return array('status'=>2,'msg'=>'Something went wrong,please try again later.');
+		}
+	}
+
+}
+?>

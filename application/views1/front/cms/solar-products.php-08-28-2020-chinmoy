@@ -1,0 +1,146 @@
+    <section class="pageBanner">
+      <img src="<?php echo base_url(); ?>assets/front/img/others/hotel-energy.jpg" alt="" class="bannerImg">
+      <section class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Solar Products</h2>
+            <ol>
+              <li><a href="<?php echo base_url(); ?>">Home</a></li>
+              <li>Solar Products</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+    <section class="inner-page aboutPage">
+      <div class="container">
+        <div class="section-title text-left">
+          <h2>Solar Products</h2>
+          <p>Solar energy can be explored and encashed by shaping them into various products to aid mankind. </p>          
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="section-title text-left">
+              <h5>Learn more about Roshni Solar</h5>
+            </div>
+            <ul class="nav nav-tabs flex-column sideNavTab">
+              <li class="nav-item">
+                <a class="nav-link <?php echo (($this->uri->segment(1) == 'modules' || $this->uri->segment(1) == 'solar-products')?'show active':''); ?>" data-toggle="tab" href="#tab-1">
+                  <div class="d-flex align-items-center">
+                    <div class="icon"><img src="<?php echo base_url(); ?>assets/front/img/vision.png"></div>
+                    <div class="ml-3">
+                      <h6  class="m-0">Modules</h6>
+                      <p class="m-0"><i class="fa fa-long-arrow-right"></i></p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link <?php echo (($this->uri->segment(1) == 'monocrystaline')?'show active':''); ?>" data-toggle="tab" href="#tab-2">
+                  <div class="d-flex align-items-center">
+                    <div class="icon"><img src="<?php echo base_url(); ?>assets/front/img/goal.png"></div>
+                    <div class="ml-3">
+                      <h6  class="m-0">Monocrystaline</h6>
+                      <p class="m-0"><i class="fa fa-long-arrow-right"></i></p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link <?php echo (($this->uri->segment(1) == 'polycrystaline')?'show active':''); ?>" data-toggle="tab" href="#tab-3">
+                  <div class="d-flex align-items-center">
+                    <div class="icon"><img src="<?php echo base_url(); ?>assets/front/img/diamond.png"></div>
+                    <div class="ml-3">
+                      <h6  class="m-0">Polycrystaline</h6>
+                      <p class="m-0"><i class="fa fa-long-arrow-right"></i></p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link <?php echo (($this->uri->segment(1) == 'mono-perc' || $this->uri->segment(1) == 'remote-monitoring' || $this->uri->segment(1) == 'solar-pumps' || $this->uri->segment(1) == 'solar-heater' || $this->uri->segment(1) == 'solar-street-light')?'show active':''); ?>" data-toggle="tab" href="#tab-4">
+                  <div class="d-flex align-items-center">
+                    <div class="icon"><img src="<?php echo base_url(); ?>assets/front/img/diamond.png"></div>
+                    <div class="ml-3">
+                      <h6  class="m-0">Mono Perc</h6>
+                      <p class="m-0"><i class="fa fa-long-arrow-right"></i></p>
+                    </div>
+                  </div>
+                </a>
+              </li>            
+               
+            </ul>
+
+          </div>
+          <div class="col-lg-9">
+            <div class="tab-content">			  
+			        <div class="tab-pane <?php echo (($this->uri->segment(1) == 'modules' || $this->uri->segment(1) == 'solar-products')?'show active':''); ?>" id="tab-1">
+                <h5> Modules</h5> 
+                <p>Solar PV Modules</p>
+              </div>			  
+			        <div class="tab-pane <?php echo (($this->uri->segment(1) == 'monocrystaline')?'show active':''); ?>" id="tab-2">
+                <h5>Monocrystaline</h5> 
+                <p>solar PV panels are premium panels with elegance in aesthetics with higher efficiencies </p>
+                <div class="row">
+                      <div class="col-md-6">
+                        <img src="<?php echo base_url(); ?>assets/front/img/others/20180614-DSC08757.jpg" class="img-fluid mb-3">
+                      </div>
+                      <div class="col-md-6">
+                        <img src="<?php echo base_url(); ?>assets/front/img/others/ezgif.com-webp-to-jpg (1).jpg" class="img-fluid mb-3">
+                      </div>
+                  </div>
+              </div>			  
+			        <div class="tab-pane <?php echo (($this->uri->segment(1) == 'polycrystaline')?'show active':''); ?>" id="tab-3">
+                <h5>Polycrystaline</h5> 
+				         <p>modules are relatively less efficient than the Monocrystalline counterparts but cost effective for solar projects in India suiting into budget friendly option for solar projects. </p>
+              </div>
+              <div class="tab-pane <?php echo (($this->uri->segment(1) == 'mono-perc' || $this->uri->segment(1) == 'remote-monitoring' || $this->uri->segment(1) == 'solar-pumps' || $this->uri->segment(1) == 'solar-heater' || $this->uri->segment(1) == 'solar-street-light' || $this->uri->segment(1) == 'solar-products')?'show active':''); ?>" id="tab-4">
+              <div class="tab" role="tabpanel">
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link <?php echo (($this->uri->segment(1) == 'remote-monitoring' || $this->uri->segment(1) == 'mono-perc' || $this->uri->segment(1) == 'solar-products')?'active':''); ?>" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Remote Monitoring</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link <?php echo (($this->uri->segment(1) == 'solar-pumps')?'active':''); ?>" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Solar Pumps</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link <?php echo (($this->uri->segment(1) == 'solar-heater')?'active':''); ?>" id="tab3-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Solar Heater</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link <?php echo (($this->uri->segment(1) == 'solar-street-light')?'active':''); ?>" id="tab3-tab" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">Solar Street Light</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade <?php echo (($this->uri->segment(1) == 'remote-monitoring' || $this->uri->segment(1) == 'mono-perc' || $this->uri->segment(1) == 'solar-products')?'show active':''); ?>" id="tab1" role="tabpanel" aria-labelledby="home-tab">                      
+                      <p>Remote Monitoring is a unique technology which combines economic, environmental and performance data with an advanced and easy to use visualization tool. The system provides real time key performance indicators and alerts to give insight into all the systems' operational and financial performance where the problems are immediately detected and addressed to with the facility of integrated solution by continuously recording the logs, system performance analyses and generating alerts in case of any sort of malfunctioning of the same. </p>
+                    </div>
+                    <div class="tab-pane fade <?php echo (($this->uri->segment(1) == 'solar-pumps')?'show active':''); ?>" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                      <p>Solar Pumps are another development in the renewable energy world. These are well designed mechanics to eliminate the cost associated for running the system through grid utility or diesel by using the solar energy for pumping water for residential, commercial as well as agricultural use. Our solar pumps are eco friendly and cost effective. Our solar powered pumps are meant to address the consumers where ferrying water from remote places is having high cost involvement and for agriculture sector where the farmers are facilitated with more time involving themselves into plus income by growing more crops with added time from such advantageous arrangements .</p>
+                    </div>
+                    <div class="tab-pane fade <?php echo (($this->uri->segment(1) == 'solar-heater')?'show active':''); ?>" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                      <p>Solar Heater system is a device that is instrumented to capture sunlight to generate hot water in an economic way. It brings in substantial energy savings and is pollution free in producing hot water for the consumer. Implementation of such systems is relatively free in comparison to natural gas or fuel. </p>
+                    </div>
+                    <div class="tab-pane fade <?php echo (($this->uri->segment(1) == 'solar-street-light')?'show active':''); ?>" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+                      <p>Solar Street Lights are solar powered luminaries which gets the power of illumination from the sun by charging the rechargeable battery in day time to help illuminate at darkness. </p>
+                      <div class="row">
+                          <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>assets/front/img/others/lampposts-solar-lights-dec062018-min.jpg" class="img-fluid mb-3">
+                          </div>
+                          <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>assets/front/img/others/ezgif.com-webp-to-jpg.jpg" class="img-fluid mb-3">
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    

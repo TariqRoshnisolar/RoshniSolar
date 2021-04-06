@@ -1,0 +1,6 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-08-13 16:42:31 --> Severity: error --> Exception: Unable to locate the model you have specified: Emails_model /home/chirshac/developmentzone.chirsha.com/system/core/Loader.php 344
+ERROR - 2020-08-13 18:25:24 --> Severity: error --> Exception: Too few arguments to function facebook(), 0 passed in /home/chirshac/developmentzone.chirsha.com/application/views/front/common/default/videos.php on line 52 and exactly 1 expected /home/chirshac/developmentzone.chirsha.com/application/helpers/custom_helper.php 184
+ERROR - 2020-08-13 18:26:17 --> Severity: error --> Exception: Too few arguments to function facebook(), 0 passed in /home/chirshac/developmentzone.chirsha.com/application/views/front/common/default/videos.php on line 53 and exactly 1 expected /home/chirshac/developmentzone.chirsha.com/application/helpers/custom_helper.php 184
+ERROR - 2020-08-13 18:32:06 --> Severity: error --> Exception: Too few arguments to function facebook(), 0 passed in /home/chirshac/developmentzone.chirsha.com/application/views/front/common/default/videos.php on line 53 and exactly 1 expected /home/chirshac/developmentzone.chirsha.com/application/helpers/custom_helper.php 184

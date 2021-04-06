@@ -1,0 +1,86 @@
+#ashwani {
+	display: none;
+}
+.nbs-vaish-container {
+	position: relative;
+	max-width: 100%;
+}
+.nbs-vaish-ul {
+	position: relative;
+	width: 9999px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.nbs-vaish-inner {
+	overflow: hidden;
+	float: none;
+	width: 100%;
+	margin: 0px;
+	background-color: transparent;
+}
+.nbs-vaish-item {
+	float: left;
+	padding: 0px;
+	cursor: pointer;
+	position: relative;
+	line-height: 0px;
+	margin: 0;
+	text-align: center;
+}
+/*** Navigation ***/
+
+.nbs-vaish-nav-left, .nbs-vaish-nav-right {
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 100;
+}
+.product-listing img {
+	margin: 0 auto;
+}
+.nbs-vaish-nav-left {
+	background-image: url(images/pre.png);
+	background-repeat: no-repeat;
+	height: 38px;
+	left: 0;
+	left: -60px;
+	bottom: -50px !important;
+	width: 38px;
+	top: 30% !important;
+}
+.nbs-vaish-nav-right {
+	background-image: url(images/next.png);
+	background-repeat: no-repeat;
+	height: 38px;
+	left: auto;
+	right: -60px;
+	bottom: -50px !important;
+	width: 38px;
+	top: 30% !important;
+}
+ @media screen and (max-width: 992px) {
+.nbs-vaish-inner {
+	background-color: rgba(0, 0, 0, 0);
+	float: none;
+	margin: 0;
+	overflow: hidden;
+	width: 100%;
+}
+}
+@media screen and (max-width: 800px) {
+.nbs-vaish-nav-right {
+	right: 0%;
+}
+.nbs-vaish-nav-left {
+	right: 4%;
+}
+@media screen and (max-width:640px) {
+.nbs-vaish-nav-left {
+right: 6%;
+}
+@media screen and (max-width:360px) {
+ .nbs-vaish-nav-left {
+right:11%;
+}

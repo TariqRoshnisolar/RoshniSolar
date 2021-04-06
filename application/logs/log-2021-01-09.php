@@ -1,0 +1,23 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-01-09 03:26:35 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 05:41:51 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 05:46:09 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 07:14:34 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 07:46:48 --> Could not find the language line "Career"
+ERROR - 2021-01-09 07:46:48 --> Could not find the language line "Career"
+ERROR - 2021-01-09 07:46:48 --> Could not find the language line "Career"
+ERROR - 2021-01-09 07:46:48 --> Could not find the language line "Career"
+ERROR - 2021-01-09 08:10:32 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 08:50:39 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 08:58:15 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 09:00:39 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 09:01:33 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 09:05:04 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 09:41:29 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 09:54:19 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 10:06:16 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 11:00:14 --> Severity: error --> Exception: Too few arguments to function Msgnineone::sendSMS(), 2 passed in /home/x65n5th5vgzq/public_html/application/controllers/Api.php on line 543 and exactly 3 expected /home/x65n5th5vgzq/public_html/application/libraries/Msgnineone.php 94
+ERROR - 2021-01-09 11:29:21 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 11:36:07 --> Could not find the language line "Installation And Commissioning"
+ERROR - 2021-01-09 11:37:00 --> Could not find the language line "Installation And Commissioning"

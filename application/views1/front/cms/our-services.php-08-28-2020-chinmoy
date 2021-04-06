@@ -1,0 +1,207 @@
+    <section class="pageBanner">
+      <img src="<?php echo base_url(); ?>assets/front/img/slide/shutterstock_1780391507.jpg" alt="" class="bannerImg">
+      <section class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Our Services</h2>
+            <ol>
+              <li><a href="<?php echo base_url(); ?>">Home</a></li>
+              <li>Our Services</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+    <section class="inner-page aboutPage">
+      <div class="container">
+        <div class="section-title text-left">
+          <h2>Our Services</h2>
+          <h6>EPC Solutions</h6> 
+          <p>Roshni Urja with its richly experienced work force adapts to world-class technology to design, installation and commissioning of solar projects to develop the most cost-effective and energy efficient PV solar plants of any scale.
+          The dedicated team of experts lends a helping hand towards clients understanding the financing, policies, land, fiscal benefits, and regulatory approvals required for successful installation and execution of projects, With the prowess in managing turnkey projects, we aptly undergo the following:-</p>
+          
+          <b>Engineering</b>
+          <ul>
+          <li> Thorough yield assessments</li>
+          <li> Planning & engineering</li>
+          <li> Prudent selection of components on the basis of quality</li>
+          <li> Finalization of design </li>
+          <li> Detailed Engineering </li>
+          </ul>
+          <b>Procurement</b>
+          <ul>
+          <li> Specification drafting</li>
+          <li> Tendering & bidding</li>
+          <li> Contract & Agreements</li>
+          <li> Purchases of components</li>
+          </ul>                
+          <b>Construction</b>
+          <ul>
+          <li> Installation & Construction documentation</li>
+          <li> Risk management analysis</li>
+          <li> Site management analysis</li>
+          <li> Coordination of logistics</li>
+          <li> Safety Coordination</li>
+          <li> Prosaic commissioning</li>
+          <li> Performance Testing</li>
+          <li> Detailed documentation & Project management</li>
+          </ul>       
+          <h6>Sub EPC </h6> 
+          <p>Services rendered are nearly similar to EPC with exception of non-supply of solar modules and inverters  (in some cases where client prefers to supply modules and inverters as per their choice but on the guidance of the service provider.</p>
+          <p>&nbsp;</p> 
+          <h6>Installation & Commissioning</h6>
+          <p>This mode of service rendering as the terminology suggests is limited to only install & commission the solar components to give it to the final shape of full functioning solar plant .</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="section-title text-left">
+              <h5>Learn more about Roshni Solar</h5>
+            </div>
+            <ul class="nav nav-tabs flex-column sideNavTab">
+              <li class="nav-item">
+                <a class="nav-link <?php echo (($this->uri->segment(1) == 'our-advantages')?'show active':''); ?>" data-toggle="tab" href="#tab-1">
+                  <div class="d-flex align-items-center">
+                    <div class="icon"><img src="<?php echo base_url(); ?>assets/front/img/vision.png"></div>
+                    <div class="ml-3">
+                      <h6  class="m-0">Our advantages</h6>
+                      <p class="m-0"><i class="fa fa-long-arrow-right"></i></p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link <?php echo (($this->uri->segment(1) == 'solar-technology_solutions' || $this->uri->segment(1) == 'rooftop-solar' || $this->uri->segment(1) == 'ground-mounted-solar' || $this->uri->segment(1) == 'solar-parks' || $this->uri->segment(1) == 'floating-solar-system')?'show active':''); ?>" data-toggle="tab" href="#tab-2">
+                  <div class="d-flex align-items-center">
+                    <div class="icon"><img src="<?php echo base_url(); ?>assets/front/img/goal.png"></div>
+                    <div class="ml-3">
+                      <h6  class="m-0">Solar technologies solutions</h6>
+                      <p class="m-0"><i class="fa fa-long-arrow-right"></i></p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link <?php echo (($this->uri->segment(1) == 'business-model' || $this->uri->segment(1) == 'capex' || $this->uri->segment(1) == 'resco-opex-boat-considers-ppa')?'show active':''); ?>" data-toggle="tab" href="#tab-3">
+                  <div class="d-flex align-items-center">
+                    <div class="icon"><img src="<?php echo base_url(); ?>assets/front/img/diamond.png"></div>
+                    <div class="ml-3">
+                      <h6  class="m-0">Business Model</h6>
+                      <p class="m-0"><i class="fa fa-long-arrow-right"></i></p>
+                    </div>
+                  </div>
+                </a>
+              </li>           
+               
+            </ul>
+
+          </div>
+          <div class="col-lg-9">
+            <div class="tab-content">			  
+			        <div class="tab-pane <?php echo (($this->uri->segment(1) == 'our-advantages')?'show active':''); ?>" id="tab-1">
+                <h5> Our advantages</h5> 
+                <p>We are one stop solution to all your solar needs.</p>
+              </div>			  
+			        <div class="tab-pane <?php echo (($this->uri->segment(1) == 'solar-technology_solutions' || $this->uri->segment(1) == 'rooftop-solar'  || $this->uri->segment(1) == 'ground-mounted-solar' || $this->uri->segment(1) == 'solar-parks' || $this->uri->segment(1) == 'floating-solar-system')?'show active':''); ?>" id="tab-2">
+                <h5>Solar technologies solutions</h5> 
+                <p>We at Roshni Solar are constantly exerting and innovating to develop solutions that can efficiently transform the sun's energy into reliable and sustainable power.There are three primary technologies by which solar energy is harnessed: </p>
+                <ol>
+                    <li>Photovoltaics - directly convert light to electricity;</li>
+                    <li>Concentrating solar power - uses heat from the sun (thermal energy) to drive utility-scale, electric turbines;</li> 
+                    <li> Solar heating & Cooling systems-collect thermal energy to provide hot water and air heating or conditioning</li>
+                </ol>
+                <div class="tab" role="tabpanel">
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link <?php echo (($this->uri->segment(1) == 'rooftop-solar' || $this->uri->segment(1) == 'solar-technology_solutions')?'active':''); ?>" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Rooftop Solar</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link <?php echo (($this->uri->segment(1) == 'ground-mounted-solar')?'active':''); ?>" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Ground mounted solar</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link <?php echo (($this->uri->segment(1) == 'solar-parks')?'active':''); ?>" id="tab3-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Solar Parks</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link <?php echo (($this->uri->segment(1) == 'floating-solar-system')?'active':''); ?>" id="tab3-tab" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">Floating solar system</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade <?php echo (($this->uri->segment(1) == 'rooftop-solar' || $this->uri->segment(1) == 'solar-technology_solutions')?'show active':''); ?>" id="tab1" role="tabpanel" aria-labelledby="home-tab">
+                      <p>Solar PV Plants installed in the roof of residential, institutional, social, Government, commercial, industrial buildings are referred to as Rooftop Solar System. These systems can be Grid Connected or with battery storage facility (also known as Off-Grid System)</p>
+                      <div class="row">
+                          <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>assets/front/img/others/Installation-on-Commercial-Premises-1.jpg" class="img-fluid mb-3">
+                          </div>
+                          <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>assets/front/img/others/35616_large.jpg" class="img-fluid mb-3">
+                          </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade <?php echo (($this->uri->segment(1) == 'ground-mounted-solar')?'show active':''); ?>" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                      <p>Solar PV Systems relatively of higher capacity when attached / mounted to the ground on ground based mounting frames on a large scale for optimum utility are called Ground Mounted Solar Plants.</p>
+                      <div class="row">
+                          <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>assets/front/img/others/27-1.jpg" class="img-fluid mb-3">
+                          </div>
+                          <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>assets/front/img/others/SOlar-3.jpg" class="img-fluid mb-3">
+                          </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade <?php echo (($this->uri->segment(1) == 'solar-parks')?'show active':''); ?>" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                      <p>A photovoltaic power station, also called a sun oriented park or sunlight based ranch, is a huge scope photovoltaic framework (PV framework) intended for the flexibly of trader power into the power network. The sunlight based force source is by means of photovoltaic modules that convert light legitimately to power. To minimize the risk oriented with the implementation of solar projects, solar parks are well characterized facilities with well managed infrastructure and amenities for power developers to thrive upon and helps to generate electricity in a concentrated safeguarded zone. </p>
+                      <div class="row">
+                          <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>assets/front/img/others/ultra-tech-banner.jpg" class="img-fluid mb-3">
+                          </div>
+                          <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>assets/front/img/others/zonnepark.jpg" class="img-fluid mb-3">
+                          </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade <?php echo (($this->uri->segment(1) == 'floating-solar-system')?'show active':''); ?>" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+                      <p>With the lurking constraint of land availability owing to major developments in most of the countries on the globe renewable energy has fathomed the scope of implementation of solar plants on most of the inland water bodies. It’s an emerging concept gradually spreading out both in India and globally. This can be developed on all types of water bodies viz. lakes, saltwater lakes, reservoirs, dams, rivers and allied. </p>
+                      <div class="row">
+                          <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>assets/front/img/others/1588823166floatingsolar(cover).jpg" class="img-fluid mb-3">
+                          </div>
+                          <div class="col-md-6">
+                            <img src="<?php echo base_url(); ?>assets/front/img/others/floating-solar-1280x720.jpg" class="img-fluid mb-3">
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>			  
+			        <div class="tab-pane <?php echo (($this->uri->segment(1) == 'business-model' || $this->uri->segment(1) == 'capex' || $this->uri->segment(1) == 'resco-opex-boat-considers-ppa')?'show active':''); ?>" id="tab-3">
+                <h5>Business Model</h5> 
+				         <div class="tab" role="tabpanel">
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link <?php echo (($this->uri->segment(1) == 'business-model' || $this->uri->segment(1) == 'capex')?'active':''); ?>" id="tab5-tab" data-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="true">Capex</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link <?php echo (($this->uri->segment(1) == 'resco-opex-boat-considers-ppa')?'active':''); ?>" id="tab6-tab" data-toggle="tab" href="#tab6" role="tab" aria-controls="tab6" aria-selected="false">Resco Opex Boat Considers Ppa</a>
+                    </li>                    
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade <?php echo (($this->uri->segment(1) == 'capex' || $this->uri->segment(1) == 'business-model')?'show active':''); ?>" id="tab5" role="tabpane5" aria-labelledby="tab5-tab">
+                      <p>Solar PV Plants installed in the roof of residential, institutional, social, Government, commercial, industrial buildings are referred to as Rooftop Solar System. These systems can be Grid Connected or with battery storage facility (also known as Off-Grid System)</p>
+                    </div>
+                    <div class="tab-pane fade <?php echo (($this->uri->segment(1) == 'resco-opex-boat-considers-ppa')?'show active':''); ?>" id="tab6" role="tabpane6" aria-labelledby="tab6-tab">
+                      <p>Solar PV Systems relatively of higher capacity when attached / mounted to the ground on ground based mounting frames on a large scale for optimum utility are called Ground Mounted Solar Plants.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    

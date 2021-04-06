@@ -1,0 +1,377 @@
+/*
+
+ * Table of Contents:
+
+ * 	   - Media Queries
+
+ *   0 - media screen and (max-width: 1170px)
+
+ *   1 - media screen and (max-width: 1152px) 
+
+ *   2 - media screen and (max-width: 1024px)
+
+ *   3 - media screen and (max-width: 992px)
+
+ *   4 - media screen and (max-width: 800px)
+
+ *   5 - media screen and (max-width: 768px)
+
+ *   6 - media screen and (max-width: 728px)
+
+ *   7 - media screen and (max-width: 640px)
+
+ *   8 - media screen and (max-width: 500px)
+
+ *   9 - media screen and (max-width: 480px)
+
+ *  10 - media screen and (max-width: 414px)
+
+ *  11 - media screen and (max-width: 375px)
+
+ * 	12 - media screen and (max-width: 360px)
+
+ *  13 - media screen and (max-width: 320px)
+
+---------------------------------------------------------------------- */
+
+/* 1.0 - Common Styles
+
+---------------------------------------------------------------------- */
+
+
+
+body, p, article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+
+	font-family: 'Lato', sans-serif;
+
+	color: #333;
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 23px;
+
+	margin: 0px;
+
+	padding: 0px;
+
+}
+
+h1 {
+
+	font-family: 'Lato', sans-serif;
+
+	font-size: 24px;
+
+	color: #f7941d;
+
+	margin-bottom: 5px;
+
+	font-weight: 900;
+
+	line-height: 30px;
+
+	text-transform: uppercase;
+
+}
+
+h2 {
+
+	font-family: 'Lato', sans-serif;
+
+	font-size: 24px;
+
+	color: #3498db;
+
+	margin-bottom: 5px;
+
+	font-weight: 900;
+
+	line-height: 30px;
+
+	text-transform: uppercase;
+
+}
+
+h3 {
+
+	font-family: 'Lato', sans-serif;
+
+	font-size: 26px;
+
+	color: #000;
+
+	margin-bottom: 15px;
+
+	font-weight: 700;
+
+	line-height: 34px;
+
+}
+
+h4 {
+
+	font-family: 'Lato', sans-serif;
+
+	font-size: 20px;
+
+	color: #222;
+
+	margin-bottom: 10px;
+
+	line-height: 22px;
+
+	font-weight: 700;
+
+}
+
+h5 {
+
+	font-family: 'Lato', sans-serif;
+
+	font-size: 18px;
+
+	color: #333;
+
+	margin-bottom: 10px;
+
+	line-height: 26px;
+
+	font-weight: 700;
+
+}
+
+h6 {
+
+	font-family: 'Lato', sans-serif;
+
+	font-size: 16px;
+
+	color: #222;
+
+	margin-bottom: 10px;
+
+	line-height: 24px;
+
+	font-weight: 400;
+
+}
+
+a {
+
+	outline: 0;
+
+	color: #000;
+
+	-webkit-transition: all .25s ease-in;
+
+	-moz-transition: all .25s ease-in;
+
+	-ms-transition: all .25s ease-in;
+
+	-o-transition: all .25s ease-in;
+
+	transition: all .25s ease-in;
+
+}
+
+.btn {
+
+	outline: 0;
+
+	-webkit-transition: all .25s ease-in;
+
+	-moz-transition: all .25s ease-in;
+
+	-ms-transition: all .25s ease-in;
+
+	-o-transition: all .25s ease-in;
+
+	transition: all .25s ease-in;
+
+	cursor: pointer;
+
+}
+
+button:focus {
+
+	outline: none;
+
+}
+
+a:focus, a:hover, a:active {
+
+	text-decoration: none;
+
+	outline: 0;
+
+}
+
+p {
+
+	margin-bottom: 10px;
+
+}
+
+a:focus, a:hover {
+
+	color: #000;
+
+	text-decoration: none;
+
+}
+
+.container {
+
+	padding: 0px 15px;
+
+	width: 100%;
+
+	max-width: 1170px;
+
+}
+
+/*-------------Form css start from here------------------*/
+
+
+
+.ccr_header {
+
+	float: left;
+
+	width: 100%;
+
+	padding: 5px 0;
+
+}
+
+.ccr_section {
+
+	float: left;
+
+	width: 100%;
+
+	padding: 15px 0;
+
+}
+
+.form_part {
+
+	margin-top: 10px;
+
+}
+
+.form_part h1 {
+
+	margin-bottom: 15px;
+
+}
+
+.form_part .bg-primary th {
+
+	color: #fff;
+
+	font-size: 16px;
+
+}
+
+.login_details {
+
+	background-color: #f5f5f5;
+
+	border: 1px solid #ddd;
+
+	padding: 30px 25px;
+	border-radius: 8px;
+
+}
+
+.login_details a {
+
+	color: #007bff;
+
+}
+
+.proccess_button .btn {
+
+	position: relative;
+
+	margin-right: 25px;
+
+	border-radius: 0;
+
+	height: 37px;
+
+	-webkit-transition: all .25s ease-in;
+
+	-moz-transition: all .25s ease-in;
+
+	-ms-transition: all .25s ease-in;
+
+	-o-transition: all .25s ease-in;
+
+	transition: all .25s ease-in;
+
+}
+
+.proccess_button .btn:after {
+
+	content: "";
+
+	position: absolute;
+
+	height: 0;
+
+	width: 0;
+
+	left: 100%;
+
+	top: 0;
+
+	border: 19px solid transparent;
+
+	border-left-color: transparent;
+
+	border-left-style: solid;
+
+	border-left-width: 19px;
+
+	border-left: 22px solid #343a40;
+
+	top: -1px;
+
+	margin-left: 0px;
+
+	-webkit-transition: all .25s ease-in;
+
+	-moz-transition: all .25s ease-in;
+
+	-ms-transition: all .25s ease-in;
+
+	-o-transition: all .25s ease-in;
+
+	transition: all .25s ease-in;
+
+}
+
+.proccess_button .btn:hover:after {
+
+	border-left: 22px solid #23272b;
+
+}
+
+.proccess_button .btn-success:after {
+
+	border-left: 22px solid #28a745;
+
+	margin-left: 0px;
+
+}
+
+.proccess_button .btn-success:hover:after {
+
+	border-left: 22px solid #218838;
+
+}
+

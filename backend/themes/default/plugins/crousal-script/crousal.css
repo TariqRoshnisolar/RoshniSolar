@@ -1,0 +1,103 @@
+#crousalDemo1 {
+	display: none;
+}
+.nbs-crousal-container {
+	position: relative;
+	max-width: 100%;
+}
+.crousal {
+	margin-top: 10px;
+	padding-right: 10px;
+}
+.nbs-crousal-ul {
+	position: relative!important;
+	width: 9999px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.nbs-crousal-inner {
+	overflow: hidden!important;
+	float: none;
+	width: 100%;
+	margin: 0px auto;
+	background-color: transparent;
+	padding: 0px 0 0px 0;
+	text-align: left;
+}
+.nbs-crousal-item {
+	float: left;
+	cursor: pointer;
+	position: relative;
+	line-height: 0px;
+	margin: 0;
+	text-align: center;
+	margin-top:10px;
+}
+.nbs-crousal-item img {
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0px;
+	position: relative;
+	max-width: 100%;
+}
+/*** Navigation ***/
+
+.nbs-crousal-nav-left, .nbs-crousal-nav-right {
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 100;
+}
+.nbs-crousal-nav-left {
+	background-image: url(images/pre.png);
+	background-repeat: no-repeat;
+	height: 38px;
+	left: 0;
+	left: -60px;
+	bottom: -50px !important;
+	width: 38px;
+	top: 40% !important;
+}
+.nbs-crousal-nav-right {
+	background-image: url(images/next.png);
+	background-repeat: no-repeat;
+	height: 38px;
+	left: auto;
+	right: -60px;
+	bottom: -50px !important;
+	width: 38px;
+	top: 40% !important;
+}
+ @media screen and (max-width: 1366px) {
+.nbs-crousal-nav-left {
+	left: 10px;
+}
+.nbs-crousal-nav-right {
+	right: 10px;
+}
+}
+/* @media screen and (max-width: 800px) {
+.nbs-crousal-nav-left {
+	left: -15px;
+}
+.nbs-crousal-nav-right {
+	right: -15px;
+}
+}
+ @media screen and (max-width: 640px) {
+.nbs-crousal-inner {
+	width: 80%;
+}
+}
+ @media screen and (max-width: 550px) {
+}
+ @media screen and (max-width: 414px) {
+.nbs-crousal-inner {
+	width: 70%;
+}
+}
+ @media screen and (max-width: 320px) {
+}
+*/

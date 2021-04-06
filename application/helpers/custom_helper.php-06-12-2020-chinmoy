@@ -1,0 +1,21 @@
+<?php
+  function formatMultipleRowData($data, $unique, $search){
+          $feediscounts = [];
+          $found;
+          foreach($data as $k=>$feediscount){
+          $found = 0;
+          foreach($feediscounts as $f_k=>$f_h){
+             if($feediscount[$unique] == $f_h[$unique]){
+             $feediscounts[$f_k][$search][] = $feediscount[$search];
+             $found++;
+          }
+        }
+            if($found == 0){
+               $feediscounts[$k] = $feediscount;
+               unset($feediscounts[$k][$search]);
+               $feediscounts[$k][$search][] = $feediscount[$search];
+            }
+        }
+        return $feediscounts; 	
+  }
+?>

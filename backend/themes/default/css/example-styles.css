@@ -1,0 +1,491 @@
+.multi-select-container {
+    display: inline-block;
+    position: relative;
+}
+
+.multi-select-menu {
+    position: absolute;
+    left: 0;
+    top: 0.8em;
+    z-index: 1;
+    float: left;
+    min-width: 100%;
+    background: #fff;
+    margin: 1em 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.multi-select-menuitem {
+    display: block;
+    font-size: 0.875em;
+    padding: 0.6em 1em 0.6em 30px;
+    white-space: nowrap;
+}
+
+.multi-select-menuitem + .multi-select-menuitem {
+    padding-top: 0;
+}
+
+.multi-select-presets {
+    border-bottom: 1px solid #ddd;
+}
+
+.multi-select-menuitem input {
+    position: absolute;
+    margin-top: 0.25em;
+    margin-left: -20px;
+}
+
+.multi-select-button {
+    display: inline-block;
+    font-size: 0.875em;
+    padding: 0.2em 0.6em;
+    max-width: 16em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: -0.5em;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+
+.multi-select-button:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.4em 0.4em 0 0.4em;
+    border-color: #999 transparent transparent transparent;
+    margin-left: 0.4em;
+    vertical-align: 0.1em;
+}
+
+.multi-select-container--open .multi-select-menu {
+    display: block;
+}
+
+.multi-select-container--open .multi-select-button:after {
+    border-width: 0 0.4em 0.4em 0.4em;
+    border-color: transparent transparent #999 transparent;
+}
+
+.multi-select-container--positioned .multi-select-menu {
+    /* Avoid border/padding on menu messing with JavaScript width calculation */
+    box-sizing: border-box;
+}
+
+.multi-select-container--positioned .multi-select-menu label {
+    /* Allow labels to line wrap when menu is artificially narrowed */
+    white-space: normal;
+}
+
+
+
+
+
+
+/*================ SUSATANAT CUSTOM STYLE =================*/
+.w-75-text{max-width: calc(100% - 300px) !important;}
+
+.w-100{max-width: 100% !important;}
+
+.w75{
+    max-width: 75% !important;
+}
+.w25{
+    max-width: 25% !important;
+}
+
+.form_part .form-table-wrap{
+    margin: 30px 0;
+    position: relative;
+}
+.form_part .form-table-wrap .form-table-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    border: 1px solid #dee2e6;
+}
+.form_part .form-table-wrap .form-table-row + .form-table-row{
+    border-top: 0;
+}
+.form_part .form-table-wrap .form-table-row:nth-child(odd){
+    background-color: rgba(0,0,0,.05);
+}
+.form_part .form-table-wrap .form-table-row .form-table-col{
+    width: 100%;
+    padding: 15px;
+}
+.form_part .form-table-wrap .form-table-row .form-table-col:nth-child(1){
+    max-width: 300px;
+}
+.form_part .form-table-wrap .form-table-row .form-table-col:nth-child(3){
+    max-width: 300px;
+}
+.form_part .form-table-wrap .form-table-row .form-table-col:nth-child(2){
+    max-width: calc(100% - 600px);
+}
+.form_part .form-table-wrap .form-table-row .form-table-col.button-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.form_part .form-table-wrap .form-table-row .form-table-col.form-control-label{
+    color: #212529;
+    font-weight: 600;
+}
+
+
+.form-wizard-wrap.proccess_button .btn{
+    border: 0;
+    outline: 0;
+    height: 38px;
+    background-color: #343a40;
+    position: relative;
+    color : #fff;
+}
+.form-wizard-wrap.proccess_button .btn::after{
+    content: "";
+    position: absolute;
+    height: 37px;
+    width: 0;
+    left: 100%;
+    top: 0;
+    border: 19px solid transparent;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 19px;
+    border-left: 22px solid #343a40;
+    top: 0px;
+    margin-left: 0px;
+    -webkit-transition: all .25s ease-in;
+    -moz-transition: all .25s ease-in;
+    -ms-transition: all .25s ease-in;
+    -o-transition: all .25s ease-in;
+    transition: all .25s ease-in;
+    margin-left: 0px;
+   
+}
+.form-wizard-wrap.proccess_button .btn.active{
+    background-color: #28a745;
+}
+.form-wizard-wrap.proccess_button .btn.active::after{
+    border-left: 22px solid #28a745;
+}
+
+.form_part .form-table-wrap .upload-photo-prv{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #fff;
+    overflow: hidden;
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+.form_part .form-table-wrap .upload-photo-prv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+}
+.form_part .form-table-wrap .upload-sign-prv{
+    width: 230px;
+    height: 80px;
+    border: 2px solid #dee2e6;
+    overflow: hidden;
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: #dee2e6;
+
+}
+.form_part .form-table-wrap .upload-sign-prv img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+    display: block;
+}
+
+.form_part .wrapper {
+    width: 950px;
+    border: 2px solid #dee2e6;
+    overflow-x: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.form_part .middleinfo {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 26px;
+}
+
+.form_part .middleinfo .maininfo {
+    float: none;
+    width: 100%;
+    max-width: calc(100% - 230px);
+    margin-right: 50px;
+}
+.form_part .middleinfo .maininfo  .info {
+    width : 100%
+}
+.form_part .middleinfo .sidephoto {
+    width: 180px;
+    float: none;
+}
+.form_part .middleinfo .sidephoto .sidephoto-wrap{
+    width: 180px;
+    height : 180px;
+    overflow: hidden;
+    border: 2px solid #dee2e6;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #fff;
+}
+.form_part .middleinfo .sidephoto .sidephoto-wrap img{
+    width: 100%;
+    height : 100%;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+}
+
+.form_part .wrapper h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 22px;
+    font-weight: 700;
+    background-color: var(--primary);
+    color: #fff;
+    padding: 5px 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.form_part .wrapper h4.full-label{
+    margin-right: -250px;
+}
+
+.form_part .middleinfo .maininfo .info {
+    width: 100%;
+    display: flex;
+}
+.form_part .middleinfo .maininfo .info  .leftinfo{
+    width: 320px;
+    display: block;
+}
+.form_part .middleinfo .maininfo .info .middledot {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+}
+.form_part .middleinfo .maininfo .info .rightinfo {
+    width: calc(100% - 350px);
+    display: block;
+}
+
+.form_part .wrapper .heading1{
+    width : 100%;
+}
+
+.payment-option-wrap{}
+.payment-option-wrap .custom-radio{position:relative;margin:3px 5px;display:inline-block}
+.payment-option-wrap .custom-radio .custom-radio-input{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;opacity:0;cursor:pointer}
+.payment-option-wrap .custom-radio .custom-radio-label{position:relative;margin:0;line-height:16px;font-size:14px;font-family:'Montserrat',sans-serif;font-weight:500;border:2px solid transparent;padding:10px;width:170px;height:50px;overflow:hidden;border-radius:4px;background-color:#fff;box-shadow: rgb(0 0 0 / 15%) 0 2px 10px;padding-left:40px;position:relative}
+.payment-option-wrap .custom-radio .custom-radio-label .img-wrap{width:100%;height:100%}
+.payment-option-wrap .custom-radio .custom-radio-label .img-wrap img{width:100%;height:100%;object-fit:contain;display:block;object-position:center center}
+.payment-option-wrap .custom-radio .custom-radio-label:before{content:"";width:7px;height:7px;border-radius:50%;display:none;top:50%;transform:translateY(-50%);left:13.5px;position:absolute;background-color:#007bff}
+.payment-option-wrap .custom-radio .custom-radio-label:after{content:"";width:14px;height:14px;border:2px solid #dee2e6;border-radius:50%;display:block;top:50%;transform:translateY(-50%);left:10px;position:absolute}
+.payment-option-wrap .custom-radio .custom-radio-input:checked ~ .custom-radio-label{border-color:#007bff}
+.payment-option-wrap .custom-radio .custom-radio-input:checked ~ .custom-radio-label:after{border-color:#007bff}
+.payment-option-wrap .custom-radio .custom-radio-input:checked ~ .custom-radio-label::before{display:block}
+
+
+
+
+
+/*========== RESPONSIVE START ==================*/
+@media screen and (max-width: 1600px) {
+
+}
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1366px) {
+
+}
+@media screen and (max-width: 1280px) {
+	
+}
+@media screen and (max-width: 1024px) {
+	
+}
+@media screen and (max-width: 990px) {
+    .form_part .form-table-wrap .form-table-row .form-table-col:nth-child(2) {
+        max-width: calc(100% - 300px);
+    }
+    .form_part .form-table-wrap .form-table-row .form-table-col:nth-child(3) {
+        max-width: calc(100% - 300px);
+        margin-left: auto;
+    }
+    .form_part .form-table-wrap .form-table-row .form-table-col.no-data{
+        display: none;
+    }
+    .form-wizard-wrap.proccess_button .btn {
+        font-size: 14px;
+        padding: 6px 7px;
+    }
+
+    .form_part .wrapper {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 990px) and (orientation: landscape){
+
+}
+@media screen and (max-width: 767px) {
+	.form-wizard-wrap.proccess_button{
+        display: flex;
+        white-space: nowrap;
+        min-width: 100%;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-wizard-wrap.proccess_button .btn{
+        display: none;
+        padding: 6px 12px;
+        font-size: 1rem;
+    } 
+    .form-wizard-wrap.proccess_button .btn.current{
+        display: inline-block;
+        min-width: 200px;
+
+    }
+    .form_part .form-table-wrap .form-table-row .form-table-col.no-data{
+        display: none;
+    }
+    .form_part .form-table-wrap .form-table-row .form-table-col:nth-child(1) {
+        max-width: 100%;
+    }
+    .form_part .form-table-wrap .form-table-row .form-table-col:nth-child(2) {
+        max-width: 100%;
+    } 
+    .form_part .form-table-wrap .form-table-row .form-table-col:nth-child(3) {
+        max-width: 100%;
+    } 
+    .w-75-text{
+        max-width: calc(100%) !important;
+    }
+    .w75{
+        max-width: 100% !important;
+    }
+    .w25{
+        max-width: 100% !important;
+    }
+    .form_part .form-table-wrap .form-table-row .form-table-col.button-wrap{
+        justify-content: center;
+    }
+    .form_part .form-table-wrap .upload-label{
+        order: 2;
+    }
+    .form_part .form-table-wrap .upload-pic{
+        order: 1;
+    }
+    .form_part .wrapper{
+        width: 100%;
+        padding: 10px;
+    }
+    .form_part .wrapper .heading1 {
+        width: 100%;
+        text-align: center;
+    }
+    .form_part .middleinfo .maininfo {
+        max-width: calc(100%);
+        margin-right: 0;
+        order : 2;
+    }
+    .form_part .middleinfo .sidephoto{
+        order: 1;
+        width: 100%;
+    }
+    .form_part .middleinfo .maininfo .info {
+        width: 100%;
+        display: flex;
+    }
+    .form_part .middleinfo .maininfo .info .leftinfo {
+        width: 130px;
+        display: block;
+    }
+    .form_part .middleinfo .maininfo .info .middledot {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: block;
+    }
+    .form_part .middleinfo .maininfo .info .rightinfo {
+        text-align: left;
+        display: block;
+        width: calc(100% - 160px);
+        word-break: break-word;
+    }
+
+    .form_part .middleinfo .sidephoto .sidephoto-wrap {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 20px;
+    }
+
+    .form_part .wrapper h4.full-label {
+        margin-right: -10px;
+    }
+    .form_part .wrapper h4{
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .form_part .wrapper .datetoday {
+        margin-top: 40px;
+    }
+
+    .payment-option-wrap .custom-radio {
+        position: relative;
+        margin: 8px auto;
+        display: block;
+        width: 170px;
+    }
+
+    .recruitment-text{
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 767px)  and (orientation: landscape){
+
+}
+@media screen and (max-width: 600px) {
+
+}
+@media screen and (max-width: 480px) {
+
+	
+}
+@media screen and (max-width: 360px) {
+
+}
+@media screen and (max-width: 320px) {
+
+}

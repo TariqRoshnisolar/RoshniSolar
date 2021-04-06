@@ -1,0 +1,141 @@
+    <section class="pageBanner">
+      <img src="<?php echo base_url(); ?>assets/front/img/slide/shutterstock_1780391507.jpg" alt="" class="bannerImg">
+      <section class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Know solar</h2>
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li>Know solar</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+    <section class="inner-page aboutPage">
+      <div class="container">
+        <div class="section-title text-left">
+          <h2>Know solar</h2>
+          <p class="">Solar thermal force/electric age frameworks gather and concentrate daylight to deliver the high temperature heat expected to produce power. The two kinds of sunlight based force plants are separated relying upon how the vitality from the sun is changed over into power - either by means of photovoltaic or "sun powered cells," or through sunlight based solar thermal power plants. </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="section-title text-left">
+              <h5>Learn more about Roshni Solar</h5>
+            </div>
+            <ul class="nav nav-tabs flex-column sideNavTab">
+              <li class="nav-item">
+                <a class="nav-link <?php echo (($this->uri->segment(1) == 'mission')?'show active':''); ?>" data-toggle="tab" href="#tab-1">
+                  <div class="d-flex align-items-center">
+                    <div class="icon"><img src="<?php echo base_url(); ?>assets/front/img/vision.png"></div>
+                    <div class="ml-3">
+                      <h6  class="m-0">Solar Panels</h6>
+                      <p class="m-0"><i class="fa fa-long-arrow-right"></i></p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link <?php echo (($this->uri->segment(1) == 'vision')?'show active':''); ?>" data-toggle="tab" href="#tab-2">
+                  <div class="d-flex align-items-center">
+                    <div class="icon"><img src="<?php echo base_url(); ?>assets/front/img/goal.png"></div>
+                    <div class="ml-3">
+                      <h6  class="m-0">On Grid System</h6>
+                      <p class="m-0"><i class="fa fa-long-arrow-right"></i></p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-3">
+                  <div class="d-flex align-items-center">
+                    <div class="icon"><img src="<?php echo base_url(); ?>assets/front/img/diamond.png"></div>
+                    <div class="ml-3">
+                      <h6  class="m-0">Off Grid System</h6>
+                      <p class="m-0"><i class="fa fa-long-arrow-right"></i></p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-4">
+                  <div class="d-flex align-items-center">
+                    <div class="icon"><img src="<?php echo base_url(); ?>assets/front/img/skills.png"></div>
+                    <div class="ml-3">
+                      <h6  class="m-0">Hybrid System</h6>
+                      <p class="m-0"><i class="fa fa-long-arrow-right"></i></p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link" data-toggle="tab" href="#tab-5">
+                  <div class="d-flex align-items-center">
+                    <div class="icon"><img src="<?php echo base_url(); ?>assets/front/img/choice.png"></div>
+                    <div class="ml-3">
+                      <h6  class="m-0">Solar Tracking</h6>
+                      <p class="m-0"><i class="fa fa-long-arrow-right"></i></p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+               
+            </ul>
+
+          </div>
+          <div class="col-lg-9">
+            <div class="tab-content">
+              
+			  
+			  <div class="tab-pane <?php echo (($this->uri->segment(1) == 'solar-panel')?'show active':''); ?>" id="tab-1">
+               <h5> Solar Panels</h5> 
+                <p>Sun is the powerhouse of energy. Solar panels better referred as Solar Photovoltaics are designed medium to expedite the colossal power of the Sun. Solar PVs are used to metamorphose light from the sun, which is composed of particles of energy called "photons", into electricity that can be used to power electrical loads.</p>
+                
+              </div>
+              
+			  
+			  <div class="tab-pane <?php echo (($this->uri->segment(1) == 'ongrid-system')?'show active':''); ?>" id="tab-2">
+                <h5>On Grid System</h5> 
+                <p>A solar power generation system when it is interactive to the utility grid to power the appliances of residential, industrial & commercial facilities, is easy to maintain and are hassle free system is referred to as Grid Connected Solar System. The grid connected inverter converts the DC electricity produced by the solar panels into AC electricity, which can then be used by the property/household. If a grid connected system is producing more power than the home consumes, the surplus is fed into the power grid.</p>
+                
+              </div>
+              
+			  
+			  <div class="tab-pane <?php echo (($this->uri->segment(1) == 'offgrid-system')?'show active':''); ?>" id="tab-3">
+                <h5>Off Grid System</h5> 
+				<p>Independent of the Grid utility, the system works self sufficiently with battery storage facilities to store the power generated from solar energy by the system. The system usually consists of solar panels, inverter, battery bank, charge controller, grid box, mounting structure and balance systems.</p>
+                
+              </div>
+			  
+			  
+			  
+			  <div class="tab-pane <?php echo (($this->uri->segment(1) == 'hybrid-system')?'show active':''); ?>" id="tab-4">
+                <h5>Hybrid System</h5> 
+				<p>The system is referred to as power generation source to run electric appliances which combines solar power generation from Solar PV modules with another electric power producing source. Often diesel generators or wind turbines are used to constantly fill in the gap between the present load and the actual generated power by the PV system.</p>
+                
+              </div>
+			  
+			  <div class="tab-pane" id="tab-5">
+                <h5>Solar Tracking</h5> 
+				<p>Solar Trackers are technology addendum to Solar PV Modules which direct solar panels in direct line of the Sun. These devices are designed to change the orientation throughout the radiant days of the Sun to follow the Sun’s path to maximize energy capture. The trackers follow the Sun vertically and horizontally to help obtaining maximum solar energy generations.</p>
+                
+              </div>
+			  
+			  
+			  
+            </div>
+          </div>
+		  
+		  
+		  
+		  
+        </div>
+
+      </div>
+    </section>
+
+    
+    

@@ -1,0 +1,77 @@
+.box.box-primary {
+    border-top-color: #222533;
+    overflow:hidden;
+}
+.slideRight {
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+}
+.slideLeft {
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+}
+.welcome-logo {
+    float: left;
+}
+.welcome-text {
+    float: left;
+    margin-top: 120px;
+    margin-left: 15px;
+}
+.welcome-text-w {
+    font-size: 23px;
+    color: #5d492f;
+    font-family: 'Arial Black';
+    text-shadow: 1px 1px 1px #ffead3;
+}
+.welcome-user {
+    font-size: 21px;
+    color: #5d492f;
+    font-style: italic;
+    font-family: Arial;
+    text-shadow: 1px 1px 1px #ffead3;
+}
+.product-name {
+    font-size: 52px;
+    font-family: 'Arial Black';
+    color: #204080;
+    margin-top: 10px;
+    float: left;
+    text-shadow: 1px 1px 1px #ffead3;
+}
+.managerdescription{
+	display:block;
+	font-weight: 600!important;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+	font-size: 15px;
+	text-align: right;
+	padding: 0 30px 0 0;
+	
+}
+.managerhead{
+	background-color: #673ab7!important; 
+	text-align: center!important;
+	color:white;
+	padding: 115px 0 115px 0;
+}
+.boxbody{
+	margin-top: 40px;
+    margin-bottom: 40px;
+}
+.descriptionhead{
+	border: 1px solid #e0e0e0;
+	padding: 94px 0 115px 0;
+}
+.box-body{
+	    min-height: 500px;
+}

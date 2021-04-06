@@ -1,0 +1,170 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-03-19 05:22:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'uvsil_new' C:\wamp64\www\uvsil\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2020-03-19 05:22:08 --> Unable to connect to the database
+ERROR - 2020-03-19 05:34:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\wamp64\www\uvsil\application\core\MY_Controller.php 187
+ERROR - 2020-03-19 05:34:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\wamp64\www\uvsil\application\core\MY_Controller.php 191
+ERROR - 2020-03-19 05:34:32 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\uvsil\application\views\themes\default\layout.php 1793
+ERROR - 2020-03-19 05:34:32 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\uvsil\application\views\themes\default\layout.php 1794
+ERROR - 2020-03-19 05:41:44 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\wamp64\www\rr\recruitment\application\core\MY_Controller.php 187
+ERROR - 2020-03-19 05:41:44 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\wamp64\www\rr\recruitment\application\core\MY_Controller.php 191
+ERROR - 2020-03-19 05:41:44 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\themes\default\layout.php 1793
+ERROR - 2020-03-19 05:41:44 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\themes\default\layout.php 1794
+ERROR - 2020-03-19 05:42:26 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\wamp64\www\rr\recruitment\application\core\MY_Controller.php 187
+ERROR - 2020-03-19 05:42:26 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\wamp64\www\rr\recruitment\application\core\MY_Controller.php 191
+ERROR - 2020-03-19 05:42:26 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\themes\default\layout.php 1793
+ERROR - 2020-03-19 05:42:26 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\themes\default\layout.php 1794
+ERROR - 2020-03-19 11:13:02 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 11:13:02 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 11:34:21 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 11:34:21 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 06:04:42 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\wamp64\www\rr\recruitment\application\core\MY_Controller.php 187
+ERROR - 2020-03-19 06:04:43 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\wamp64\www\rr\recruitment\application\core\MY_Controller.php 191
+ERROR - 2020-03-19 06:04:43 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\themes\default\layout.php 1793
+ERROR - 2020-03-19 06:04:43 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\themes\default\layout.php 1794
+ERROR - 2020-03-19 11:48:24 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 11:48:25 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 11:52:17 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 11:52:17 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 11:52:21 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 11:52:21 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 11:58:29 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 11:58:29 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 11:58:50 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 11:58:50 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 11:59:13 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 11:59:13 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 11:59:22 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 11:59:22 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 11:59:42 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 11:59:42 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:04:26 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:04:26 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:04:34 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:04:34 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:04:35 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:04:35 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:05:23 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:05:23 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:05:35 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:05:35 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:05:54 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:05:54 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:06:50 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:06:50 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:10:20 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:10:20 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:13:02 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:13:02 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:13:18 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:13:18 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:17:00 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:17:00 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:17:01 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:17:01 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:17:03 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:17:03 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:17:07 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:17:07 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:17:57 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:17:57 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:17:58 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:17:58 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:19:29 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:19:29 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:19:30 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:19:30 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:19:34 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:19:34 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:22:50 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:22:50 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:22:52 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:22:52 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:25:01 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:25:01 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:25:02 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:25:02 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:25:04 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:25:04 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:28:06 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:28:06 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:29:07 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:29:07 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:29:19 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:29:19 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:30:38 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:30:38 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:30:50 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:30:50 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:32:48 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:32:48 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:34:55 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:34:55 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:35:05 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:35:05 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:37:04 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:37:04 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:37:12 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:37:12 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 12:37:16 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 65
+ERROR - 2020-03-19 12:37:16 --> Severity: Notice --> Undefined variable: update C:\wamp64\www\rr\recruitment\application\views\form\index.php 67
+ERROR - 2020-03-19 03:32:49 --> Severity: Warning --> mysqli::real_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) /home/kareudyi/public_html/rr/recruitment/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2020-03-19 03:32:49 --> Unable to connect to the database
+ERROR - 2020-03-19 03:34:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable /home/kareudyi/public_html/rr/recruitment/application/core/MY_Controller.php 187
+ERROR - 2020-03-19 03:34:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable /home/kareudyi/public_html/rr/recruitment/application/core/MY_Controller.php 191
+ERROR - 2020-03-19 03:34:03 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/themes/default/layout.php 1793
+ERROR - 2020-03-19 03:34:03 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/themes/default/layout.php 1794
+ERROR - 2020-03-19 13:06:20 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 13:06:20 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 13:06:32 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 13:06:32 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 13:07:03 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 13:07:03 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 13:08:01 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 13:08:01 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 13:20:06 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 13:20:06 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 13:20:18 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 13:20:18 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 14:00:09 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 14:00:09 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 14:02:59 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 14:02:59 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 14:17:17 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 14:17:17 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:22:37 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:22:37 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:23:37 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:23:37 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:23:59 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:23:59 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:24:21 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:24:21 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:25:43 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:25:43 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:27:43 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:27:43 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:30:02 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:30:02 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:30:52 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:30:52 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:33:06 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:33:06 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:33:21 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:33:21 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:40:28 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:40:28 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:40:43 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:40:43 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:42:47 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:42:47 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 15:53:29 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 15:53:29 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 16:47:05 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 16:47:05 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 19:06:30 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 19:06:30 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 22:21:30 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 22:21:30 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
+ERROR - 2020-03-19 22:48:01 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 65
+ERROR - 2020-03-19 22:48:01 --> Severity: Notice --> Undefined variable: update /home/kareudyi/public_html/rr/recruitment/application/views/form/index.php 67
